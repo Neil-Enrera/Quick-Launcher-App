@@ -1,4 +1,4 @@
-﻿# Quick Launcher
+# Quick Launcher
 
 <div align="center">
 
@@ -12,7 +12,7 @@
 [![Angular](https://img.shields.io/badge/Angular-22.x-DD0031.svg?logo=angular)](https://angular.dev/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-[**Download for Windows (.exe)**](https://github.com/Neil-Enrera/Quick-Launcher-App/releases/download/v0.1.0/Quick.Launcher.Setup.0.1.0.exe) | [**macOS Releases**](https://github.com/Neil-Enrera/Quick-Launcher-App/releases) | [View All Releases](https://github.com/Neil-Enrera/Quick-Launcher-App/releases) | [Report an Issue](https://github.com/Neil-Enrera/Quick-Launcher-App/issues)
+[**Download for Windows (.exe)**](https://github.com/Neil-Enrera/Quick-Launcher-App/releases/latest) | [**macOS Releases**](https://github.com/Neil-Enrera/Quick-Launcher-App/releases) | [View All Releases](https://github.com/Neil-Enrera/Quick-Launcher-App/releases) | [Report an Issue](https://github.com/Neil-Enrera/Quick-Launcher-App/issues)
 
 </div>
 
@@ -40,7 +40,7 @@ Quick Launcher is designed as a native cross-platform desktop application:
 ### Windows 10 and 11
 
 1. **Download the Installer**:
-   Click here to download [Quick Launcher Setup 0.1.0.exe](https://github.com/Neil-Enrera/Quick-Launcher-App/releases/download/v0.1.0/Quick.Launcher.Setup.0.1.0.exe) or check the [Releases page](https://github.com/Neil-Enrera/Quick-Launcher-App/releases).
+   Download the latest installer from the [Releases page](https://github.com/Neil-Enrera/Quick-Launcher-App/releases) or click [Download Quick Launcher Setup](https://github.com/Neil-Enrera/Quick-Launcher-App/releases/latest).
 2. **Install**:
    Double-click the downloaded `.exe` installer. Quick Launcher will install and automatically start.
 3. **Desktop and Start Menu Shortcuts**:
@@ -95,7 +95,7 @@ When you open Quick Launcher for the first time, a guided spotlight tour automat
 | <kbd>Cmd</kbd> + <kbd>Option</kbd> + <kbd>L</kbd> | macOS | Global hotkey to summon or hide Quick Launcher anywhere |
 | **Window Close (X)** | All | Minimizes Quick Launcher quietly to the system tray / menu bar |
 | **Tray / Menu Bar Icon** | All | Click to restore the dashboard, or right-click to Quit |
-| **Start at Login** | All | Enable in Settings to have Quick Launcher ready whenever your computer boots |
+| **System Startup** | All | Enable in Settings to have Quick Launcher launch automatically when your computer turns on |
 
 ---
 
@@ -110,45 +110,7 @@ When you open Quick Launcher for the first time, a guided spotlight tour automat
 - **Custom Arguments**: Optional CLI parameter support for developer tools and scripts.
 - **Modern Dark Theme**: Curated dark UI with responsive layouts and green desktop accents.
 
----
 
-## For Developers (Source Code)
-
-To build and run Quick Launcher from source:
-
-### Prerequisites
-- **Node.js**: v20 or v22+
-- **npm**: v10+
-
-### Clone and Run Locally
-```bash
-# Clone the repository
-git clone https://github.com/Neil-Enrera/Quick-Launcher.git
-cd quick-launcher
-
-# Install dependencies
-npm install
-
-# Start development mode (Electron + Angular hot reload)
-npm run dev
-```
-
-### Testing and Packaging
-```bash
-# Run unit and smoke tests
-npm run smoke
-
-# Run full Playwright desktop end-to-end test suite (19 tests)
-npm run test:e2e
-
-# Build the Windows NSIS installer in release/
-npm run dist
-
-# Build macOS DMG (when running on macOS)
-npx electron-builder --mac
-```
-
----
 
 ## License
 
@@ -159,4 +121,3 @@ This project is open-source under the [MIT License](LICENSE).
 **Neil Enrera**
 - GitHub: [@Neil-Enrera](https://github.com/Neil-Enrera)
 - Public App Repository: [Quick-Launcher-App](https://github.com/Neil-Enrera/Quick-Launcher-App)
-
